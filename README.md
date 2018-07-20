@@ -1,5 +1,13 @@
 # Pic2chars
 
+## Usage
+```
+./pic2chars -i=test.jpeg -z=5
+```
+
+-i input file (only support jpeg)
+-z zoom
+
 ```
                                                 .011111101
                                            01111111111111111111
