@@ -3,7 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"image/jpeg"
+	"image"
+	_ "image/jpeg"
+	_ "image/png"
 	"os"
 	"strings"
 )
@@ -40,7 +42,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	img, err := jpeg.Decode(file)
+	img, _, err := image.Decode(file)
 	if err != nil {
 		panic(err)
 	}

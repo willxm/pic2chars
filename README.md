@@ -5,7 +5,7 @@
 ./pic2chars -i=test.jpeg -z=5
 ```
 
--i input file (only support jpeg)
+-i input file
 -z zoom
 
 ```
